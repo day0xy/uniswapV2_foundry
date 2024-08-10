@@ -61,7 +61,7 @@ contract UniswapV2Pair is UniswapV2ERC20, IUniswapV2Pair {
         );
     }
 
-    constructor() public {
+    constructor() {
         factory = msg.sender;
     }
 

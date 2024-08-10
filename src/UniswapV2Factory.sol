@@ -14,7 +14,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
     //an array that includes all the addresses of pair exchanges created by this factory.
     address[] public allPairs;
 
-    constructor(address _feeToSetter) public {
+    constructor(address _feeToSetter) {
         feeToSetter = _feeToSetter;
     }
 
